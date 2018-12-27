@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+    <!--配置所用日志组件log4j-->
+    <settings>
+        <setting name="logImpl" value="LOG4J"/>
+    </settings>
+   <!--别名批量定义,在spring配置文件中配置-->
+   <!--数据源及事务交给Spring管理-->
+    <!--mapper代理对象交给Spring管理-->
+</configuration>    
